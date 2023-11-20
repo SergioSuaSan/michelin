@@ -136,6 +136,13 @@ button {
 
 
 /*------ FOOTER----*/
-footer {
-    
+.foot ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.foot li {
+    display: inline;
+    padding-left: 10px;
+    font-family: avenir;
 }
