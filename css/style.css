@@ -8,6 +8,7 @@
 /*------Herramientas generales------*/
 body{
     margin: 0;
+    font-family: avenir;
 }
 * {
     box-sizing: border-box;
@@ -39,6 +40,9 @@ body{
 .inline {
     display: inline;
 }
+.m-top {
+    margin-top: 32px;
+}
 
 
 /*-----HEADER------*/ 
@@ -64,8 +68,7 @@ header {
 .descubre {
     color: white;
     width: 38%;
-    padding-left: 9%;
-    font-family: avenir;
+    padding-left: 9%;  
     font-size: 28px;
 }
 .itt {
@@ -81,7 +84,6 @@ header {
 }
 .itt::placeholder {
     padding: 32px;
-    font-family: avenir;
 }
 
 
@@ -97,9 +99,7 @@ hr {
     width: 80px;
     display: inline-block;
 }
-h2 {
-    font-family: avenir;
-}
+
 .card {
     box-shadow: 0 0 14px rgb(194,193,193);
     padding-bottom: 40px;
@@ -144,5 +144,5 @@ button {
 .foot li {
     display: inline;
     padding-left: 10px;
-    font-family: avenir;
+    color: gray;
 }
