@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="row justify-content-between">
-        <div>
+    <header class="row justify-content-between align-items-center">
+        <div class="col">
             <img src="img/logo.svg" alt="Logo" width="300px">
         </div>
-        <div >
-            <ul class="navbar">
-                <li>Restaurantes</li>
-                <li>Hoteles</li>
-                <li>Magazines</li>
-                <li>Favoritos</li>
-            </ul>
+        <div class="col">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Restaurantes</a></li>
+                    <li><a href="#">Hoteles</a></li>
+                    <li><a href="#">Magazines</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <div class="container row align-items-center">
+    <section class="container row align-items-center">
         <div class="descubre">
             <p>Descubre y reserva hoteles y restaurantes seleccionados por la Guía MICHELIN</p>
             <input type="text" placeholder=" Buscar restaurantes, ciudades..." class="itt">
         </div>
-    </div>
-    <div class="noticias">
+    </section>
+    <section class="noticias">
         <div>
             <hr>
             <h2>Últimas noticias</h2>
@@ -70,19 +72,21 @@
                 </div>
             </div>
         </div>
-
-    </div>
+    </section>
     <footer >
         <div class="row justify-content-center">
             <img src="img/logovertical.svg" alt="" class="m-top">
         </div>
+        
         <div class="row justify-content-center" >
-            <ul class="foot">
-                <li>Condiciones de uso</li>
-                <li>Cookies</li>
-                <li>Política de privacidad</li>
-                <li>Aviso legal</li>
-            </ul>
+            <nav>
+                <ul class="foot">
+                    <li><a href="#">Condiciones de uso</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                </ul>
+            </nav>
         </div>
 
     </footer>
